@@ -75,6 +75,15 @@
                             <i class="fa fa-github mr-2"></i>MDB GitHub
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link border border-light rounded waves-effect" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            {{ __('Logout') }}
+                        </a>
+
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+                    </li>
                 </ul>
 
             </div>

@@ -69,6 +69,11 @@
                         <i class="fa fa-github mr-2"></i>MDB GitHub
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link border border-light rounded waves-effect" href="/auth/login">
+                        Login
+                    </a>
+                </li>
             </ul>
 
         </div>
